@@ -4,7 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {
+  return { 
+    base: '/Happy-Birthday-my-love/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
